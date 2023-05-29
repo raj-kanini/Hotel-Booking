@@ -51,7 +51,7 @@ builder.Services.AddAuthentication(options =>
 
 builder.Services.AddScoped<IHrepository, Hrepository>();
 builder.Services.AddScoped<IRoom, Roomrepository>();
-builder.Services.AddScoped<IFilter, FilterRepository>();
+
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
